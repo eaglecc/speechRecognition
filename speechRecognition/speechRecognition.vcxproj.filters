@@ -31,14 +31,41 @@
     <ClCompile Include="speechrecognition.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="recognition.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="audio.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="speech.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="http.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="speechrecognition.h">
       <Filter>Header Files</Filter>
     </QtMoc>
+    <QtMoc Include="recognition.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="audio.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="speech.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="http.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
   </ItemGroup>
   <ItemGroup>
     <QtUic Include="speechrecognition.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="recognition.ui">
       <Filter>Form Files</Filter>
     </QtUic>
   </ItemGroup>
